@@ -1,0 +1,7 @@
+//Declaración de la o las Bibliotecas
+
+int main (void)
+{
+	/*Programa principal*/
+return 0;
+}

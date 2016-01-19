@@ -1,0 +1,111 @@
+.fa-chevron-circle-left, .fa-chevron-circle-right {
+     position: absolute;
+     top: 50%;
+     z-index: 5;
+     display: inline-block;
+}
+.linux{
+  display: inline;
+  bottom: 0px;
+  left: 0px;
+  color:#F48605;
+}
+.imagenes{
+  width: 90%;
+}
+.logou{
+  width: 30%;
+  height: 40px;
+  margin-right: 20px;
+}
+.logoi{
+  height: 50px;
+  width: 50px;
+}
+.fa-chevron-circle-left {
+     left: 20%;
+}
+
+.fa-chevron-circle-right {
+     right: 20%;
+}
+.comentarios{
+  color: #000000;
+}
+.colorletras{
+  color: #F48605;
+}
+.colorscanf{
+  color: #0087BF;
+}
+.colorprint{
+  color: #005A80;
+}
+.define{
+  color: #26A500;
+}
+.resaltar{
+  color: #F48605;
+  font: oblique bold 100% sans-serif ;
+}
+.textojustificado{
+  text-align: justify;
+}
+.videos{
+  width: 100%;
+  height: 400px;
+}
+.affix-top{
+  position: fixed;
+}
+.btn-inverse{
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #363636;
+  *background-color: #222222;
+  background-image: -moz-linear-gradient(top, #444444, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+  background-image: -webkit-linear-gradient(top, #444444, #222222);
+  background-image: -o-linear-gradient(top, #444444, #222222);
+  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-repeat: repeat-x;
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.colorbotones{
+color: #F48605;
+}
+.textocentrado{
+  text-align: center;
+}
+.navbar-inverse .navbar-brand {
+  color: #F48605;
+}
+hr.soften {
+  height: 1px;
+  margin: 70px 0;
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+  border: 0;
+}
+
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+  color: #ffffff;
+  background-color: #222222;
+  *background-color: #151515;
+}
+
+@media (max-width: 767px) {
+  .navbar{
+    margin-bottom: 0px;
+  }
+}

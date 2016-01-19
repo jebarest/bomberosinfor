@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function pegarTexto() {
+alert(document.formularioLSG.textoRellenar.value);
+}
+</script>
+</head>
+<body>
+<form name="formularioLSG" method="post" action="recibir.c">
+<textarea id="elm1" name="textoRellenar" rows="15" cols="80" style="width: 80%">
+uno
+</textarea>
+<br>
+<input type="button" name="pegar" onclick="pegarTexto();" value="Pegar texto" />
+</form>
+</body>
+</html>
